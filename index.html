@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+   <link rel="stylesheet" href="img/iconsSocial/style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="img/iconAroowAp/style.css">
+  </head>
+  <body>
+    <div class="wraper" id="wraper">
+      <div class="arrowTop">
+        <span class="icon-circle-up"></span>
+      </div>
+      <div class="header ibg">
+        <div class="box">
+           <div class="burger">
+            <div class="header__burger">
+              <span></span>
+            </div>
+          </div>
+          <div class="header__meny">
+         
+            <div class="header__link">
+             
+            <div class="header__ul">
+              <div class="header__logo">
+                <img src="img/logo.jpg" alt="">
+              </div>
+              <a href="#porfilio"><li class="active__li">porfolio</li> </a>
+              <a href="#aboutMe"><li class="active__li">about me</li></a>
+              <a href="#prise"><li class="active__li">price</li></a>
+              <a href="#contact"><li class="active__li">contact</li></a>
+            </div>
+          </div>
+        </div>
+        <div class="header__title">
+          <h1>Anna Perova</h1>
+          <h2>photographer</h2>
+        </div>
+      </div>
+      </div>
+      <div class="content">
+        <div class="content__hBox">
+          <div class="box" id="porfilio">
+            <h1 class="content_h">My porfolio</h1>
+            <div class="content__spanLine"></div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="content__photos" >
+            <div class="content__colomLeft">
+              <div class="conent__img squareImg">
+                <img src="img/IMG_7215(1).jpg" alt="" />
+              </div>
+              <div class="conent__img rectangelColomImg">
+                <img src="img/IMG_7218(1).jpg" alt="" />
+              </div>
+            </div>
+            <div class="content__square">
+              <div class="content__colomRight">
+                <div class="conent__img squareImg">
+                  <img src="img/IMG_7221(1).jpg" alt="" />
+                </div>
+                <div class="conent__img rectangleSmolImg">
+                  <img src="img/IMG_7221(1).jpg" alt="" />
+                </div>
+              </div>
+
+              <div class="content__colomRight">
+                <div class="conent__img rectangelBigImg">
+                  <img src="img/IMG_7370(1).jpg" alt="" />
+                </div>
+              </div>
+              <div class="content__colomRight">
+                <div class="conent__img squareImg">
+                  <img src="img/IMG_7221(1).jpg" alt="" />
+                </div>
+                <div class="conent__img rectangleSmolImg">
+                  <img src="img/IMG_7215(1).jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="buttonPorfolio">
+         <a href="portfolioMore.html" onclick="onNavigate('/porfolio'); return false;"> <button class="button-more">show more</button></a>
+        </div>
+
+        <div class="aboutMe">
+          <div class="box">
+            <div class="aboutMe__container">
+              <div class="aboutMe__background" id="aboutMe"></div>
+              <div class="aboutMe__text">
+                <h1 class="content_h">About me</h1>
+                <div class="content__spanLine"></div>
+                <div class="aboutMe__p">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut
+                    expedita veniam aut consequatur tempore sint ducimus error!
+                    Eaque inventore blanditiis harum officia corporis provident
+                    ut quaerat consequuntur est, ducimus vel!
+                  </p>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Odio repudiandae aliquid impedit assumenda illo aliquam
+                    accusantium facere tenetur eos deserunt voluptates velit
+                    fugit corrupti ut ullam animi quod, provident ea!
+                  </p>
+                </div>
+                <div class="aboutMe__buton">
+                  <a href="aboutMe.html" onclick="onNavigate('/about'); return false;"><button class="button-more">read more</button></a> 
+                </div>
+              </div>
+              <div class="aboutMe__img">
+                <img src="img/icon.jpg" alt="" />
+              </div>
+            </div>
+          
+          </div>
+         
+        </div>
+        <div class="content__hBox" id="prise">
+          <div class="box">
+            <h1 class="content_h">Price for my work</h1>
+            <div class="content__spanLine"></div>
+          </div>
+        </div>
+         <div class="prise" >
+           <div class="box">
+             <div class="prise__container">
+               <div class="prise__backgroundd"></div> 
+               <div class="prise__foto">
+                 <img src="img/IMG_7216(1).jpg" alt="">
+               </div>
+               <div class="prise__text">
+                  <h2>love story:</h2>
+                  <div class="content__spanLine"></div>
+                  <p>ціна - 400 грн</p>
+                  <h2>family weekend:</h2>
+                  <div class="content__spanLine"></div>
+                  <p>3 чоловіки ціна - 500 грн</p>
+                  <h2>family weekend:</h2>
+                  <div class="content__spanLine"></div>
+                  <p>4-5 чоловіки ціна - 700 грн</p>
+
+               </div>
+             </div>
+           </div>
+         </div>
+
+         
+        <div class="mailBox" id="contact">
+          <div class="mailBox__wraper">
+            <div class="mailBox__backgroud"></div>
+            <form action="/email" method="POST" class="mailBox__form" id="form">
+            
+                  <h1 class="content_h">Contact</h1>
+                  <div class="content__spanLine"></div>
+            
+            <div class="mailBox__name">
+              <input type="text" placeholder="Ваше ім'я" class="_req" name="name">
+              <input type="text" placeholder="Ваш e-mail"  class="_req _email" name="email">
+            </div>
+            <div class="mailBox__text">
+              <p>Ваше повідомлення</p>
+            <textarea name="message" id="" class="mailBox__textarea" ></textarea>
+            </div>
+            <div>
+              <button  class="mailBox__button" type="submit" >відправити</button>
+            </div>
+         
+        </form>
+        </div>
+      </div>
+
+     
+    </div>
+    <div class="footer">
+      <div class="social">
+   <div class="social__instagram ">
+    <a href="https://www.instagram.com/raleva_anya_ph/"target="_blank">
+          <span class="icon-instagram"></span>
+        </a>
+        </div>
+        <div class="social__facebook">
+          <a href="https://www.facebook.com/profile.php?id=100004969033182" target="_blank">
+          <span class="icon-facebook"></span></a>
+        </div>
+        <div class="social__telegram">
+         
+            <a href=>
+              <span class="icon-telegram"></span>
+            </a>
+
+        </div>
+      </div>
+    </div>
+    
+    </div>
+   
+    <script src="js/form.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
